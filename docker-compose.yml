@@ -1,0 +1,36 @@
+x-hardening: &hardening
+  read_only: true
+  tmpfs:
+    - /tmp
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+  pids_limit: 128
+  restart: unless-stopped
+
+services:
+  web:
+    build:
+      context: .
+      target: web
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    mem_limit: 512m
+    <<: *hardening
+
+  api:
+    build:
+      context: .
+      target: api
+    env_file:
+      - .env
+    environment:
+      API_PORT: "4000"
+    expose:
+      - "4000"
+    mem_limit: 256m
+    <<: *hardening

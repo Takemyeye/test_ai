@@ -19,8 +19,12 @@ function escapeTags(text: string): string {
   return text.replaceAll("<", "&lt;");
 }
 
+function omitImage(key: string, value: unknown): unknown {
+  return key === "image" ? undefined : value;
+}
+
 function buildUserMessage(listing: Listing, question: string): string {
-  return ["<listing>", JSON.stringify(listing, null, 2), "</listing>", "<question>", escapeTags(question), "</question>"].join("\n");
+  return ["<listing>", JSON.stringify(listing, omitImage, 2), "</listing>", "<question>", escapeTags(question), "</question>"].join("\n");
 }
 
 export async function askAboutListing(listing: Listing, question: string): Promise<string> {

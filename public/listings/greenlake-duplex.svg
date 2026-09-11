@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Illustration of the property">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3ff"/><stop offset="1" stop-color="#e9f5ff"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#sky)"/>
+<circle cx="540" cy="80" r="34" fill="#fff3b0" opacity="0.9"/>
+<ellipse cx="120" cy="150" rx="90" ry="22" fill="#fff" opacity="0.6"/>
+<ellipse cx="420" cy="90" rx="70" ry="18" fill="#fff" opacity="0.5"/>
+<rect y="320" width="640" height="80" fill="hsl(95 35% 62%)"/>
+<rect y="316" width="640" height="6" fill="hsl(95 30% 45%)"/>
+
+    <rect x="160" y="180" width="160" height="140" fill="hsl(95 40% 88%)" stroke="hsl(95 25% 25%)" stroke-width="3"/>
+    <rect x="320" y="180" width="160" height="140" fill="hsl(95 35% 80%)" stroke="hsl(95 25% 25%)" stroke-width="3"/>
+    <polygon points="150,182 320,110 490,182" fill="hsl(95 30% 35%)"/>
+    <rect x="220" y="260" width="34" height="60" fill="hsl(95 25% 25%)"/>
+    <rect x="386" y="260" width="34" height="60" fill="hsl(95 25% 25%)"/>
+    <rect x="180" y="200" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="270" y="200" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="340" y="200" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="430" y="200" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/>
+<g transform="translate(80 280) scale(1.1)"><rect x="-6" y="0" width="12" height="40" fill="#6b4a2b"/><circle cx="0" cy="-10" r="34" fill="hsl(135 35% 40%)"/><circle cx="-22" cy="8" r="24" fill="hsl(135 35% 45%)"/><circle cx="22" cy="8" r="24" fill="hsl(135 35% 45%)"/></g>
+<g transform="translate(575 290) scale(0.9)"><rect x="-6" y="0" width="12" height="40" fill="#6b4a2b"/><circle cx="0" cy="-10" r="34" fill="hsl(125 35% 40%)"/><circle cx="-22" cy="8" r="24" fill="hsl(125 35% 45%)"/><circle cx="22" cy="8" r="24" fill="hsl(125 35% 45%)"/></g>
+</svg>

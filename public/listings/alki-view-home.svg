@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Illustration of the property">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f28e6b"/><stop offset="1" stop-color="#ffd6a5"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#sky)"/>
+<circle cx="540" cy="80" r="34" fill="#ffd27a" opacity="0.9"/>
+<ellipse cx="120" cy="150" rx="90" ry="22" fill="#fff" opacity="0.6"/>
+<ellipse cx="420" cy="90" rx="70" ry="18" fill="#fff" opacity="0.5"/>
+<rect y="320" width="640" height="80" fill="hsl(200 35% 62%)"/>
+<rect y="316" width="640" height="6" fill="hsl(200 30% 45%)"/>
+
+    <rect x="160" y="200" width="200" height="120" fill="hsl(200 40% 88%)" stroke="hsl(200 25% 25%)" stroke-width="3"/>
+    <rect x="360" y="150" width="130" height="170" fill="hsl(200 35% 78%)" stroke="hsl(200 25% 25%)" stroke-width="3"/>
+    <polygon points="150,202 260,150 370,202" fill="hsl(200 30% 35%)"/>
+    <polygon points="350,152 425,110 500,152" fill="hsl(200 30% 35%)"/>
+    <rect x="180" y="225" width="40" height="40" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="240" y="225" width="40" height="40" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="300" y="225" width="40" height="40" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/>
+    <rect x="385" y="170" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="435" y="170" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="385" y="230" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="435" y="230" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/>
+    <rect x="170" y="290" width="180" height="8" fill="hsl(200 25% 25%)"/>
+<g transform="translate(80 280) scale(1.1)"><rect x="-6" y="0" width="12" height="40" fill="#6b4a2b"/><circle cx="0" cy="-10" r="34" fill="hsl(120 35% 40%)"/><circle cx="-22" cy="8" r="24" fill="hsl(120 35% 45%)"/><circle cx="22" cy="8" r="24" fill="hsl(120 35% 45%)"/></g>
+<g transform="translate(575 290) scale(0.9)"><rect x="-6" y="0" width="12" height="40" fill="#6b4a2b"/><circle cx="0" cy="-10" r="34" fill="hsl(110 35% 40%)"/><circle cx="-22" cy="8" r="24" fill="hsl(110 35% 45%)"/><circle cx="22" cy="8" r="24" fill="hsl(110 35% 45%)"/></g>
+</svg>

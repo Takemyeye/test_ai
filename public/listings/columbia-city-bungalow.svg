@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Illustration of the property">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3ff"/><stop offset="1" stop-color="#e9f5ff"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#sky)"/>
+<circle cx="540" cy="80" r="34" fill="#fff3b0" opacity="0.9"/>
+<ellipse cx="120" cy="150" rx="90" ry="22" fill="#fff" opacity="0.6"/>
+<ellipse cx="420" cy="90" rx="70" ry="18" fill="#fff" opacity="0.5"/>
+<rect y="320" width="640" height="80" fill="hsl(45 35% 62%)"/>
+<rect y="316" width="640" height="6" fill="hsl(45 30% 45%)"/>
+
+    <rect x="210" y="210" width="220" height="110" fill="hsl(45 40% 88%)" stroke="hsl(45 25% 25%)" stroke-width="3"/>
+    <polygon points="180,215 320,140 460,215" fill="hsl(45 30% 35%)"/>
+    <rect x="200" y="215" width="240" height="10" fill="hsl(45 25% 25%)"/>
+    <rect x="235" y="235" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/><rect x="370" y="235" width="22" height="28" rx="2" fill="#8fc7ff" stroke="#334" stroke-width="2"/>
+    <rect x="300" y="250" width="40" height="70" fill="hsl(45 25% 25%)"/>
+<g transform="translate(80 280) scale(1.1)"><rect x="-6" y="0" width="12" height="40" fill="#6b4a2b"/><circle cx="0" cy="-10" r="34" fill="hsl(125 35% 40%)"/><circle cx="-22" cy="8" r="24" fill="hsl(125 35% 45%)"/><circle cx="22" cy="8" r="24" fill="hsl(125 35% 45%)"/></g>
+<g transform="translate(575 290) scale(0.9)"><rect x="-6" y="0" width="12" height="40" fill="#6b4a2b"/><circle cx="0" cy="-10" r="34" fill="hsl(115 35% 40%)"/><circle cx="-22" cy="8" r="24" fill="hsl(115 35% 45%)"/><circle cx="22" cy="8" r="24" fill="hsl(115 35% 45%)"/></g>
+</svg>

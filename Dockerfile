@@ -31,6 +31,7 @@ FROM node:24-alpine AS api
 WORKDIR /app
 ENV NODE_ENV=production
 ENV API_PORT=4000
+ENV API_HOST=0.0.0.0
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 api
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev && npm cache clean --force

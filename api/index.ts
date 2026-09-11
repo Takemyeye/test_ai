@@ -3,6 +3,7 @@ import { handleAsk } from "./src/routes/ask.ts";
 
 const MAX_BODY_SIZE = "4kb";
 const port = Number(process.env.API_PORT) || 4000;
+const host = process.env.API_HOST || "127.0.0.1";
 
 const app = express();
 app.disable("x-powered-by");
@@ -23,6 +24,6 @@ app.use((error: unknown, _request: Request, response: Response, _next: NextFunct
   response.status(status >= 400 && status < 600 ? status : 500).json({ error: "Invalid request." });
 });
 
-app.listen(port, () => {
-  console.log(`[server] listening on http://localhost:${port}`);
+app.listen(port, host, () => {
+  console.log(`[server] listening on http://${host}:${port}`);
 });

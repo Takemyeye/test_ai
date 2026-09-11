@@ -15,8 +15,12 @@ const SYSTEM_PROMPT = [
 
 export class OpenRouterError extends Error {}
 
+function escapeTags(text: string): string {
+  return text.replaceAll("<", "&lt;");
+}
+
 function buildUserMessage(listing: Listing, question: string): string {
-  return ["<listing>", JSON.stringify(listing, null, 2), "</listing>", "<question>", question, "</question>"].join("\n");
+  return ["<listing>", JSON.stringify(listing, null, 2), "</listing>", "<question>", escapeTags(question), "</question>"].join("\n");
 }
 
 export async function askAboutListing(listing: Listing, question: string): Promise<string> {

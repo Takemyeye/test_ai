@@ -30,6 +30,7 @@ services:
       - .env
     environment:
       API_PORT: "4000"
+      API_HOST: "0.0.0.0"
     expose:
       - "4000"
     mem_limit: 256m
